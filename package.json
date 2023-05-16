@@ -1,0 +1,19 @@
+{
+  "name": "qa-code-challenge",
+  "version": "1.0.0",
+  "description": "Reach Financial code challenge for members looking to join the QA team",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --project=chromium"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.31.2",
+    "@types/supertest": "^2.0.12",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "eslint": "^8.35.0"
+  }
+}
